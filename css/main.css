@@ -1,0 +1,126 @@
+body {
+  background: #d3d8d8;
+}
+
+.header {
+  background: #F8F9FA;
+}
+
+.header h3 {
+  font-family: 'Teko', sans-serif;
+  font-size: 50px;
+  padding-top: 10px;
+}
+
+.header .social img {
+  margin-left: 3px;
+  cursor: pointer;
+}
+
+.header a {
+  color: #000;
+  text-decoration: none;
+}
+
+/*CONTENT*/
+.content {
+  margin: auto;
+  text-align: center;
+}
+
+.content .searchBox input {
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+  height: 3.125rem;
+}
+
+.content .searchButton {
+  font-family: 'Teko', sans-serif;
+  font-size: 24px;
+  width: 20%;
+  margin-top: 10px;
+}
+
+.content #info {
+  padding-top: 10px;
+}
+
+/*Film List*/
+.filmList {
+  margin-bottom: 30px;
+}
+
+.filmList .film {
+  margin-top: 15px;
+  padding: 10px;
+  background: #E9ECEF;
+  -webkit-box-shadow: 0px 0px 40px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 9px 1px rgba(114, 111, 111, 0.75);
+  border-radius: 4px;
+}
+
+.filmList .film .filmTitle {
+  font-family: 'Teko', sans-serif;
+  font-size: 28px;
+  text-align: center;
+}
+
+.filmList .film .filmPoster {
+  text-align: center;
+}
+
+.filmList .film .filmPoster img {
+  width: 100%;
+  border-radius: 4px;
+  height: 490px;
+}
+
+.filmList .film .filmDetail {
+  margin-top: 5px;
+  text-align: center;
+}
+
+.filmList .film .filmDetail button {
+  width: 70%;
+}
+
+#filmListDetails {
+  -webkit-box-shadow: 0px 0px 40px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 9px 1px rgba(114, 111, 111, 0.75);
+  border-radius: 4px;
+  padding: 15px;
+}
+
+#filmListDetails .poster img {
+  width: 100%;
+}
+
+@media only screen and (max-width: 576px) {
+  .social {
+    width: 100%;
+    text-align: center;
+  }
+  .navbar-brand {
+    width: 100%;
+    text-align: center;
+    margin: 0 !important;
+  }
+  .navbar-brand img {
+    margin: 0 !important;
+  }
+  .headerTitle {
+    width: 100%;
+    text-align: center;
+  }
+  .headerTitle h3 {
+    padding: 0 !important;
+  }
+  .content .searchBox input {
+    width: 80%;
+  }
+  .content .searchBox .searchButton {
+    width: 60%;
+  }
+}
+/*# sourceMappingURL=main.css.map */
